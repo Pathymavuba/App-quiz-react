@@ -1,9 +1,13 @@
 import React from 'react'
 import './index.css'
+import Card from './component/Card'
+import StartingPage from './component/StartingPage'
 
 const App = () => {
   return (
-    <body></body>
+    <div>
+      <StartingPage />
+    </div>
   )
 }
 
