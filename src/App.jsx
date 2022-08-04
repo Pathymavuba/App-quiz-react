@@ -1,12 +1,11 @@
-import React from 'react'
 import './index.css'
-import Card from './component/Card'
 import StartingPage from './component/StartingPage'
+import Questions from './component/Questions'
 
 const App = () => {
   return (
     <div>
-      <StartingPage />
+      <Questions />
     </div>
   )
 }

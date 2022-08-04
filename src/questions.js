@@ -1,7 +1,5 @@
-import React from 'react'
 
-const questionnaire = () => {
-    const question = [
+export const questions =   [
         {
           questionText: "How long is an Olympic swimming pool (in meters)",
           answers: [
@@ -215,11 +213,12 @@ const questionnaire = () => {
           ],
         },
       ];
-  return (
-    <div>
-        {question}
-    </div>
-  )
-}
 
-export default questionnaire
+//   return (
+//     <div>
+//         <h1>{questions}</h1>
+//     </div>
+//   )
+// }
+
+// export default questions
